@@ -25,5 +25,5 @@ void boot(void) {
         "j kernel_main\n"
         :
         : [stack_top] "r" (__stack_top)
-    ):
+    );
 }
